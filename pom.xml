@@ -28,8 +28,8 @@
           <version>3.0.0</version>
           <configuration>
               <!-- <mainClass>com.zahid.Main</mainClass> -->
-              <!-- <mainClass>com.zahid.NumericExample</mainClass> -->
-              <mainClass>com.zahid.StringExample</mainClass>
+              <mainClass>com.zahid.NumericExample</mainClass>
+              <!-- <mainClass>com.zahid.StringExample</mainClass> -->
           </configuration>
       </plugin>      
       

@@ -12,21 +12,21 @@ public class NumericExample
 {
     public static void main( String[] args ) {
 
-        System.out.println("# NmericTest: ");
+        System.out.println("# BooleanEvaluation: ");
         // isEven using anonymous inner class
-        // NumericTest isEven = new NumericTest() {
-        //     @Override
-        //     public boolean test(int n) {
-        //         return n % 2 == 0;
-        //     }
-        // };
-        // System.out.println(isEven.test(4));
-        // System.out.println(isEven.test(9));
+        BooleanEvaluation isEven1 = new BooleanEvaluation() {
+            @Override
+            public boolean test(int n) {
+                return n % 2 == 0;
+            }
+        };
+        System.out.println(isEven1.test(4));
+        System.out.println(isEven1.test(9));
 
         // isEven using lambda expression
-        BooleanEvaluation isEven = num -> num % 2 == 0;
-        System.out.println(isEven.test(4));
-        System.out.println(isEven.test(9));
+        BooleanEvaluation isEven2 = num -> num % 2 == 0;
+        System.out.println(isEven2.test(4));
+        System.out.println(isEven2.test(9));
         System.out.println();
 
         // isPositive using lambda expression
